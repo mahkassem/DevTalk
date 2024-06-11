@@ -20,7 +20,6 @@ class ArticleFactory extends Factory
     {
         return [
             'slug' => fake()->slug(),
-            'cover' => 'https://picsum.photos/800/400?random=1',
             'title' => fake()->sentence(),
             'content' => fake()->paragraphs(3, true),
             'user_id' => User::factory(),
